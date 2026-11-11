@@ -1,0 +1,30 @@
+@mixin base-theme-selectors {
+	:root {
+		@content;
+	}
+}
+
+@function unit($n) {
+	@return calc(var(--unit-1) * #{$n});
+}
+
+// @function calc-size($rounding: up) {
+// 	@return s.unquote("calc-size(max-content, round(#{$rounding}, size, var(--unit-1)))");
+// }
+
+@mixin h-all {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@content;
+	}
+}
+
+@mixin h-a($level) {
+	h#{$level} {
+		@content;
+	}
+}

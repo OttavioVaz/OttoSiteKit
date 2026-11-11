@@ -1,0 +1,65 @@
+// Hide native scrollbars; the overlay indicator shows which directions can scroll.
+
+* {
+	scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+//////////////////////////////////////////////////////////////
+
+.overflow-indicator {
+	position: fixed;
+	z-index: 10;
+	pointer-events: none;
+	overflow: hidden;
+	--overflow-bar-length: calc(var(--unit-1) * 2);
+	--overflow-bar-thickness: 2px;
+	--overflow-bar-inset: calc(var(--unit-1) * 0.375);
+}
+
+.overflow-indicator__bar {
+	position: absolute;
+	width: var(--overflow-bar-length);
+	height: var(--overflow-bar-thickness);
+	border-radius: 999px;
+	background: var(--c-accent);
+	box-shadow: 0 0 6px var(--c-background-deep);
+}
+
+.overflow-indicator[hidden],
+.overflow-indicator__bar[hidden] {
+	display: none;
+}
+
+.overflow-indicator__bar[data-direction='top'],
+.overflow-indicator__bar[data-direction='bottom'] {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.overflow-indicator__bar[data-direction='top'] {
+	top: var(--overflow-bar-inset);
+}
+
+.overflow-indicator__bar[data-direction='bottom'] {
+	bottom: var(--overflow-bar-inset);
+}
+
+.overflow-indicator__bar[data-direction='left'],
+.overflow-indicator__bar[data-direction='right'] {
+	width: var(--overflow-bar-thickness);
+	height: var(--overflow-bar-length);
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.overflow-indicator__bar[data-direction='left'] {
+	left: var(--overflow-bar-inset);
+}
+
+.overflow-indicator__bar[data-direction='right'] {
+	right: var(--overflow-bar-inset);
+}

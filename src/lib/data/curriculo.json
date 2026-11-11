@@ -1,0 +1,85 @@
+{
+	"nome": "Ottavio Apolinário",
+	"contato": {
+		"email": "callistto@proton.me",
+		"telefone": "(19) 99912-6737"
+	},
+	"resumo": {
+		"perfil": "Analista e organizador com experiência em controle de tarefas, documentos e informações, fazendo o uso intensivo de ferramentas digitais e criação de sistemas padronizados a fim de ter a maior eficácia administrativa.",
+		"destaques": "Inglês avançado, habilidades autodidatas e aprendizado rápido.",
+		"objetivo": "Exercer qualquer função que faça bom proveito de meus talentos e perícias."
+	},
+	"tecnologias": {
+		"design": ["Adobe Photoshop", "Gimp", "Adobe Illustrator", "Corel Draw", "Inkscape", "Figma"],
+		"linguagens": [
+			"Rust",
+			"Python",
+			"Svelte",
+			"TypeScript",
+			"JavaScript",
+			"CSS",
+			"SCSS",
+			"HTML",
+			"DM",
+			"GDScript"
+		],
+		"desenvolvimento": [
+			"VSCode",
+			"Git",
+			"GitHub",
+			"GitLab",
+			"NeoVim",
+			"Godot Engine",
+			"Byond Engine"
+		],
+		"produtividade": [
+			"Google Workspace",
+			"Pacote Office",
+			"Pacote Libre",
+			"Tally",
+			"Excel",
+			"Trello",
+			"Notion",
+			"Anytype",
+			"Obsidian",
+			"Mermaid"
+		]
+	},
+	"experiencias": [
+		{
+			"empresa": "Restaurante Capixabar",
+			"cargos": ["Operador de Loja"],
+			"periodo": { "inicio": "01/2019", "fim": "01/2021" },
+			"descricao": "Trabalhei principalmente com a manutenção do restaurante e atendimento ao cliente, sendo logo promovido a auxiliar administrativo, onde cumpri as responsabilidades de: Atendimento presencial ao cliente. Emitindo notas, recebendo pagamentos, registrando vendas e operações de caixa. Manutenção de equipamento, estoque e do espaço de atendimento."
+		},
+		{
+			"empresa": "Desenvolvedor Backend Autônomo",
+			"cargos": ["Desenvolvedor Backend"],
+			"periodo": { "inicio": "01/2021", "fim": "11/2023" },
+			"descricao": "Trabalhei desenvolvendo pequenos sistemas e softwares distintos para inúmeros clientes, exercendo as seguintes responsabilidades: Priorizar tarefas usando quadros kanban e outros sistemas de priorização. Programar sistemas modulares e reutilizáveis, corrigindo bugs e refatorando código. Planejar sistemas aplicando padrões de design em ambientes de uso real, mantendo estrutura consistente, organizada e seu histórico de alterações."
+		},
+		{
+			"empresa": "Gráfica Cia Design",
+			"cargos": [
+				"Designer Gráfico",
+				"Arte Finalista",
+				"Operador de Loja",
+				"Auxiliar Administrativo"
+			],
+			"periodo": { "inicio": "11/2023", "fim": "12/2024" },
+			"descricao": "Trabalhei prospectando clientes online e oferecendo serviços gráficos, exercendo as seguintes responsabilidades: Criação de produtos de via digital como identidades visuais, logos, posts para redes sociais, cartões virtuais, catálogos, materiais internos e também de via impressa como cartões de visita, adesivos, panfletos, cardápios, banners, windbanners, comandas, receituários, camisetas e outros. Trabalhos manuais como refilamentos, encadernações, plastificações, perfurações e vários outros acabamentos. Preparar arquivos para impressão a laser e offset alterando modos de cor, ajuste do preto, marcas de corte e sangria. Manutenção de equipamento, estoque e do espaço de atendimento. Atendimento online e presencial ao cliente, mantendo comunicação constante e fazendo alterações necessárias ou encaminhando as mesmas para o setor correto ou terceirizados. Organizando e priorizando eventos, promoções, compromissos, serviços, demandas internas e similares. Emitindo notas, recebendo pagamentos, registrando vendas e operações de caixa."
+		},
+		{
+			"empresa": "Autônomo em Serviços Gráficos",
+			"cargos": ["Designer Gráfico"],
+			"periodo": { "inicio": "12/2024", "fim": "03/2025" },
+			"descricao": "Trabalhei prospectando clientes online e oferecendo serviços gráficos, exercendo as seguintes responsabilidades: Criação de produtos de via digital como identidades visuais, logos, posts para rede sociais, cartões virtuais, catálogos, materiais internos e também de via impressa como cartões de visita, adesivos, panfletos, cardápios, banners, windbanners, comandas, receituários, camisetas e outros. Atendimento online e presencial ao cliente, mantendo comunicação constante e fazendo alterações necessárias ou encaminhando as mesmas para o setor correto ou terceirizados. Organizando e priorizando eventos, promoções, compromissos, serviços, demandas internas e similares. Emitindo notas, recebendo pagamentos, registrando vendas e operações de caixa."
+		},
+		{
+			"empresa": "Project Blackreach",
+			"cargos": ["Desenvolvedor Backend", "Auxiliar Administrativo"],
+			"periodo": { "inicio": "02/2024", "fim": "Atualidade" },
+			"descricao": "Trabalhei desenvolvendo o sistema backend de um jogo online, exercendo as seguintes responsabilidades: Participar e organizar reuniões online para alinhamento de ideias e coworking entre equipes, sendo eu responsável por manter e priorizar tarefas usando quadros kanban e outros sistemas de priorização. Programar sistemas modulares e reutilizáveis, corrigindo bugs e refatorando código. Planejar sistemas aplicando padrões de design em ambientes de uso real, mantendo estrutura consistente, organizada e seu histórico de alterações. Criar scripts de utilidade para serem usados como ferramenta pelas equipes."
+		}
+	]
+}

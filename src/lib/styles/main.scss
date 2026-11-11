@@ -1,0 +1,94 @@
+@use 'core' as core;
+@use 'palette';
+@use 'variables';
+@use 'headings';
+@use 'overflow_bar';
+@use 'table';
+@use 'project_root';
+
+//////////////////////////////////////////////////////////////
+
+@font-face {
+	font-family: 'JetBrainsMonoNerdFont';
+	src: url('../assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+:root {
+	color-scheme: dark;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	//   font-family: "JetBrainsMonoNerdFont", monospace;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+//////////////////////////////////////////////////////////////
+
+body {
+	background: var(--c-background-deep);
+	color: var(--c-text);
+	font-size: core.unit(1);
+
+	height: 100dvh;
+	margin: 0;
+	padding: var(--panes-gap);
+}
+
+#app {
+	height: 100%;
+}
+
+//////////////////////////////////////////////////////////////
+
+p {
+	text-align: justify;
+	margin-block: core.unit(1);
+}
+
+//////////////////////////////////////////////////////////////
+
+hr {
+	outline: solid var(--c-accent-faint) 1px;
+	border: none;
+	margin-block: core.unit(1);
+}
+
+//////////////////////////////////////////////////////////////
+
+// leveling
+
+.theme-default {
+	--level: #{core.unit(0.25)};
+
+	@include core.h-all() {
+		padding-inline: calc(core.unit(1) * 0.5 + var(--level));
+	}
+
+	p,
+	table {
+		padding-inline: calc(core.unit(1) * 1 + var(--level));
+	}
+
+	hr {
+		margin-inline: calc(core.unit(1) * 0.5 + var(--level));
+	}
+
+	ul,
+	ol {
+		padding-inline: calc(core.unit(1) * 2 + var(--level));
+	}
+}
+
+.level-2 {
+	--level: #{core.unit(0.5)};
+}
+
+//////////////////////////////////////////////////////////////

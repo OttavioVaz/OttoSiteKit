@@ -1,0 +1,52 @@
+@use 'core' as core;
+
+@include core.h-all() {
+	margin-block: 0;
+	margin-bottom: core.unit(1);
+	line-height: core.unit(1.5);
+	text-wrap: nowrap;
+	overflow: hidden;
+}
+
+h1 {
+	color: var(--c-accent);
+	background-color: var(--heading-background);
+	font-size: core.unit(1.5);
+	padding-block: core.unit(0.5);
+	text-transform: uppercase;
+}
+h2 {
+	color: var(--c-accent);
+	background-color: var(--heading-background);
+	font-size: core.unit(1.4375);
+	padding-block: core.unit(0.5);
+	text-transform: capitalize;
+}
+h3 {
+	color: var(--c-accent);
+	background-color: var(--heading-background);
+	font-size: core.unit(1.375);
+	padding-block: core.unit(0.5);
+	text-transform: capitalize;
+}
+h4 {
+	color: var(--c-accent);
+	background-color: var(--heading-background-faint);
+	font-size: core.unit(1.25);
+	padding-block: core.unit(0.5);
+	text-transform: capitalize;
+}
+h5 {
+	color: var(--c-accent);
+	background-color: var(--heading-background-faint);
+	font-size: core.unit(1.125);
+	padding-block: core.unit(0.5);
+	text-transform: capitalize;
+}
+h6 {
+	color: var(--c-text);
+	background-color: var(--heading-background-fainter);
+	font-size: core.unit(1);
+	padding-block: core.unit(0.5);
+	text-transform: capitalize;
+}

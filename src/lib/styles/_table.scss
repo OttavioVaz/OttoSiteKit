@@ -1,0 +1,40 @@
+@use 'core' as core;
+
+table {
+	display: block;
+	width: max-content;
+	min-width: 100%;
+	max-width: 100%;
+	margin-block: core.unit(1);
+	overflow-x: auto;
+	border-collapse: collapse;
+	color: var(--c-text);
+}
+
+th,
+td {
+	padding: core.unit(0.5) core.unit(0.75);
+	border: 1px solid color-mix(in srgb, var(--c-text) 20%, transparent);
+	text-align: start;
+	vertical-align: top;
+}
+
+th {
+	background: var(--heading-background);
+	font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+	background: var(--heading-background-faint);
+}
+
+tbody tr:hover {
+	background: var(--heading-background);
+}
+
+caption {
+	margin-block-end: core.unit(0.5);
+	color: var(--c-text);
+	font-weight: 700;
+	text-align: start;
+}

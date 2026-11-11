@@ -1,0 +1,22 @@
+@use 'core' as core;
+
+:root {
+	--unit-1: 16px;
+}
+
+.theme-default {
+	color-scheme: dark;
+
+	--c-background-deep: var(--duel-deep-neutral-gray);
+	--c-background: var(--duel-dark-neutral-gray);
+
+	--heading-background: color-mix(in srgb, var(--c-accent) 10%, transparent 90%);
+	--heading-background-faint: color-mix(in srgb, var(--c-accent) 4%, transparent 96%);
+	--heading-background-fainter: color-mix(in srgb, var(--c-accent) 1%, transparent 99%);
+
+	--c-text: var(--duel-bright-neutral-gray);
+	--c-accent: var(--duel-bright-mauve);
+	--c-accent-faint: var(--heading-background);
+
+	--panes-gap: #{core.unit(0.5)};
+}
